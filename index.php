@@ -197,16 +197,25 @@
 <body>
 
     <section class="hero" id="inicio">
-        <div class="container hero-grid">
+        <div class="container">
 
-            <div class="hero-text-block glass-card">
-                <img src="img/logo-capela.png" alt="Logotipo Capela" style="width: 150px; border-radius: 20px; margin-bottom: 20px;">
-                <h1>CAPELA</h1>
-                <p>Engenharia da Computação | Consultoria & Ensino</p>
-            </div>
+            <nav style="display: flex; justify-content: center; gap: 30px; margin-bottom: 60px; background: var(--glass-bg); padding: 15px 30px; border-radius: 50px; border: 1px solid var(--glass-border); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);">
+                <a href="index.php" style="color: white; text-decoration: none; font-weight: 600; letter-spacing: 1px;">Início</a>
+                <a href="sobre.php" style="color: white; text-decoration: none; font-weight: 600; letter-spacing: 1px;">Quem Somos</a>
+                <a href="personas.php" style="color: white; text-decoration: none; font-weight: 600; letter-spacing: 1px;">Equipe</a>
+                <a href="contato.php" style="color: white; text-decoration: none; font-weight: 600; letter-spacing: 1px;">Contato</a>
+            </nav>
 
-            <div class="hero-image-block">
-                <img src="img/equipe.png" alt="Equipe Capela no IFSP Guarulhos">
+            <div class="hero-grid">
+                <div class="hero-text-block glass-card">
+                    <img src="img/logo-capela.png" alt="Logotipo Capela" style="width: 150px; border-radius: 20px; margin-bottom: 20px;">
+                    <h1>CAPELA</h1>
+                    <p>Engenharia da Computação | Consultoria & Ensino</p>
+                </div>
+
+                <div class="hero-image-block">
+                    <img src="img/equipe.png" alt="Equipe Capela no IFSP Guarulhos">
+                </div>
             </div>
 
         </div>
