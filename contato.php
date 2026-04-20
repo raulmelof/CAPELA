@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $headers .= "X-Mailer: PHP/" . phpversion();
 
     // Tenta enviar o e-mail
-    if (mail($para, $assunto_email, $corpo_email, $headers)) {
+    if (@mail($para, $assunto_email, $corpo_email, $headers)) {
         $mensagem_status = "<div class='alert success'>Mensagem enviada com sucesso! Responderemos em breve.</div>";
     } else {
         $mensagem_status = "<div class='alert error'>Houve um erro ao tentar enviar sua mensagem. Tente novamente.</div>";

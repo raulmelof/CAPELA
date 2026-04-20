@@ -310,8 +310,16 @@
             <h2>Onde Estamos</h2>
             <p>IFSP Câmpus Guarulhos</p>
             <p>Av. Salgado Filho, 3501 - Vila Rio de Janeiro, Guarulhos - SP, 07115-000</p>
-            <div class="map-placeholder">
-                <p>[Mapa do Google Maps Interativo Aqui]</p>
+            <div class="map-placeholder" style="overflow: hidden; border-radius: 15px; margin-top: 20px; border: 1px solid var(--glass-border); background: var(--glass-bg);">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3991.8652775945134!2d-46.53522242435576!3d-23.440381939936447!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef51fbe5f8681%3A0x1f8cf929993dc97!2sInstituto%20Federal%20de%20Educa%C3%A7%C3%A3o%2C%20Ci%C3%AAncia%20e%20Tecnologia%20de%20S%C3%A3o%20Paulo%20IFSP%20Guarulhos!5e0!3m2!1spt-BR!2sbr!4v1776656075251!5m2!1spt-BR!2sbr"
+                    width="100%"
+                    height="350"
+                    style="border:0; display: block;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
             </div>
         </div>
     </footer>
